@@ -3,14 +3,7 @@ var Util = Util || {};
 (function (Document, Util, Namespace) {
     'use strict';
 
-    /**
-     * @constructor
-     */
-    Namespace.HTMLElement = function () {
-    };
-
-
-    Namespace.HTMLElement.prototype = {
+    Namespace.HTMLElement = {
         /** @type {HTMLElement} container */
         container: null,
 

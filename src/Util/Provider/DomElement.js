@@ -3,14 +3,7 @@ var Util = Util || {};
 (function (Document, Namespace) {
     'use strict';
 
-    /**
-     * @constructor
-     */
-    Namespace.DomElement = function () {
-    };
-
-
-    Namespace.DomElement.prototype = {
+    Namespace.DomElement = {
 
         /**
          * Returns an html element by its type.
